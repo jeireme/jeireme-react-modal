@@ -4,7 +4,7 @@ A very simple and customizable modal for your react projects.
 
 ## Installation
 
-### `$ npm install jeireme-modal-plugin`
+### `$ npm install jeireme-react-modal`
 
 ## Example
 
