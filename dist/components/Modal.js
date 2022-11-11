@@ -20,7 +20,6 @@ function _interopRequireWildcard(obj, nodeInterop) { if (!nodeInterop && obj && 
  */
 function Modal(props) {
   const [modal, setModal] = (0, _react.useState)(false);
-  const defaultMessage = /*#__PURE__*/_react.default.createElement(_react.default.Fragment, null, /*#__PURE__*/_react.default.createElement("h2", null, "Well Done!"), /*#__PURE__*/_react.default.createElement("p", null, "This is a simple modal you can customize whatever you want."));
   return /*#__PURE__*/_react.default.createElement("div", {
     className: "container"
   }, /*#__PURE__*/_react.default.createElement("button", {
@@ -36,7 +35,7 @@ function Modal(props) {
 }
 Modal.defaultProps = {
   openButttonText: "Show modal",
-  message: defaultMessage,
+  message: "The modal message",
   closeButtonText: "OK"
 };
 var _default = Modal;

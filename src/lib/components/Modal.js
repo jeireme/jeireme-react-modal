@@ -13,13 +13,6 @@ import "./Modal.css";
 function Modal(props) {
   const [modal, setModal] = useState(false);
 
-  const defaultMessage = (
-    <>
-      <h2>Well Done!</h2>
-      <p>This is a simple modal you can customize whatever you want.</p>
-    </>
-  );
-
   return (
     <div className="container">
       <button onClick={() => setModal(true)}>{props.openButttonText}</button>
@@ -37,7 +30,7 @@ function Modal(props) {
 
 Modal.defaultProps = {
   openButttonText: "Show modal",
-  message: defaultMessage,
+  message: "The modal message",
   closeButtonText: "OK",
 };
 
